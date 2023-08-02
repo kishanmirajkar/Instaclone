@@ -7,7 +7,7 @@ app.use(express.json());
 app.use(cors());
 app.use(express.static("uploads"))
 const url =
-  "mongodb+srv://kishanmirajkar27:2Hbk0YhrZVvi4ctJ@cluster0.qwvyrjn.mongodb.net/?retryWrites=true&w=majority";
+  "mongodb+srv://kishanmirajkar27:QElbXIS7I1s9yCn0@cluster0.anyqppk.mongodb.net/?retryWrites=true&w=majority";
 mongoose
   .connect(url)
   .then(() => {
